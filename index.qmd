@@ -1,14 +1,3 @@
----
-about:
-  template: jolla
-
-  image: "img/main.jpeg"
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/yuxi-zhu-078540135/
----
-
 <div>
 
 I earned my Ph.D. in Biostatistics from The Ohio State University in 2023. My research focuses on multistate transition models and causal inference, with a strong emphasis on healthcare applications.
@@ -17,11 +6,17 @@ I earned my Ph.D. in Biostatistics from The Ohio State University in 2023. My re
 
 # Education
 
--   PhD in Biostatistics, The Ohio State University, Columbus, OH, USA 2023
+-   PhD in Biostatistics, The Ohio State University, Columbus, OH, USA, 2023
 
--   MS in Biostatistics, Tulane University, New Orleans, LA, USA 2017
+-   MS in Biostatistics, Tulane University, New Orleans, LA, USA, 2017
 
--   BS in Pharmaceutical Formulation， China Pharmaceutical University, Nanjing, China, 2015
+-   BS in Pharmaceutical Formulation，China Pharmaceutical University, Nanjing, China, 2015
+
+# Experience
+
+University Hospitals Rainbow Babies & Children's Hospital, Cleveland, OH
+
+Biostatistician, Aug 2023 - Present
 
 # Publication
 

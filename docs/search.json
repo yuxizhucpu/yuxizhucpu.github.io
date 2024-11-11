@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Education",
     "section": "",
-    "text": "I earned my Ph.D. in Biostatistics from The Ohio State University in 2023. My research focuses on multistate transition models and causal inference, with a strong emphasis on healthcare applications.\n\n\nEducation\n\nPhD in Biostatistics, The Ohio State University, Columbus, OH, USA 2023\nMS in Biostatistics, Tulane University, New Orleans, LA, USA 2017\nBS in Pharmaceutical Formulation， China Pharmaceutical University, Nanjing, China, 2015\n\n\n\nPublication\n\nZhu Y, Brock G, Li L. Uniformization and bounded Taylor series in Newton–Raphson method improves computational performance for a multistate transition model estimation and inference. Statistical Methods in Medical Research. 2024;0(0). doi:10.1177/09622802241283882\nDonneyong, M. M., Zhu, Y., Zhang, P., Li, Y., Hunold, K. M., Chiang, C., ... & Li, L. (2023). A comprehensive assessment of statin discontinuation among patients who concurrently initiate statins and CYP3A4‐inhibitor drugs; a multistate transition model. British Journal of Clinical Pharmacology, 89(7), 2076-2087.\nZhu, Y., Chiang, C. W., Wang, L., Brock, G., Milks, M. W., Cao, W., ... & Li, L. (2021). A multistate transition model for statin‐induced myopathy and statin discontinuation. CPT: Pharmacometrics & Systems Pharmacology, 10(10), 1236-1244."
+    "text": "I earned my Ph.D. in Biostatistics from The Ohio State University in 2023. My research focuses on multistate transition models and causal inference, with a strong emphasis on healthcare applications.\n\n\nEducation\n\nPhD in Biostatistics, The Ohio State University, Columbus, OH, USA, 2023\nMS in Biostatistics, Tulane University, New Orleans, LA, USA, 2017\nBS in Pharmaceutical Formulation，China Pharmaceutical University, Nanjing, China, 2015\n\n\n\nExperience\nUniversity Hospitals Rainbow Babies & Children’s Hospital, Cleveland, OH\nBiostatistician, Aug 2023 - Present\n\n\nPublication\n\nZhu Y, Brock G, Li L. Uniformization and bounded Taylor series in Newton–Raphson method improves computational performance for a multistate transition model estimation and inference. Statistical Methods in Medical Research. 2024;0(0). doi:10.1177/09622802241283882\nDonneyong, M. M., Zhu, Y., Zhang, P., Li, Y., Hunold, K. M., Chiang, C., ... & Li, L. (2023). A comprehensive assessment of statin discontinuation among patients who concurrently initiate statins and CYP3A4‐inhibitor drugs; a multistate transition model. British Journal of Clinical Pharmacology, 89(7), 2076-2087.\nZhu, Y., Chiang, C. W., Wang, L., Brock, G., Milks, M. W., Cao, W., ... & Li, L. (2021). A multistate transition model for statin‐induced myopathy and statin discontinuation. CPT: Pharmacometrics & Systems Pharmacology, 10(10), 1236-1244."
   },
   {
     "objectID": "Blog/posts/post-with-code/index.html",
@@ -39,7 +39,7 @@
     "href": "index.html#education",
     "title": "Yuxi Zhu",
     "section": "Education",
-    "text": "Education\n\nPhD in Biostatistics, The Ohio State University, Columbus, OH, USA 2023\nMS in Biostatistics, Tulane University, New Orleans, LA, USA 2017\nBS in Pharmaceutical Formulation， China Pharmaceutical University, Nanjing, China, 2015"
+    "text": "Education\n\nPhD in Biostatistics, The Ohio State University, Columbus, OH, USA, 2023\nMS in Biostatistics, Tulane University, New Orleans, LA, USA, 2017\nBS in Pharmaceutical Formulation，China Pharmaceutical University, Nanjing, China, 2015"
   },
   {
     "objectID": "index.html#multistate-transition-models",
@@ -47,5 +47,19 @@
     "title": "Education",
     "section": "Multistate transition models",
     "text": "Multistate transition models\n\nZhu Y, Brock G, Li L. Uniformization and bounded Taylor series in Newton–Raphson method improves computational performance for a multistate transition model estimation and inference. Statistical Methods in Medical Research. 2024;0(0). doi:10.1177/09622802241283882\nDonneyong, M. M., Zhu, Y., Zhang, P., Li, Y., Hunold, K. M., Chiang, C., ... & Li, L. (2023). A comprehensive assessment of statin discontinuation among patients who concurrently initiate statins and CYP3A4‐inhibitor drugs; a multistate transition model. British Journal of Clinical Pharmacology, 89(7), 2076-2087.\nZhu, Y., Chiang, C. W., Wang, L., Brock, G., Milks, M. W., Cao, W., ... & Li, L. (2021). A multistate transition model for statin‐induced myopathy and statin discontinuation. CPT: Pharmacometrics & Systems Pharmacology, 10(10), 1236-1244."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Yuxi Zhu",
+    "section": "Experience",
+    "text": "Experience\nUniversity Hospitals Rainbow Babies & Children’s Hospital|Biostatistician|Aug 2023 - Present"
+  },
+  {
+    "objectID": "index.html#publication",
+    "href": "index.html#publication",
+    "title": "Yuxi Zhu",
+    "section": "Publication",
+    "text": "Publication\n\nZhu Y, Brock G, Li L. Uniformization and bounded Taylor series in Newton–Raphson method improves computational performance for a multistate transition model estimation and inference. Statistical Methods in Medical Research. 2024;0(0). doi:10.1177/09622802241283882\nDonneyong, M. M., Zhu, Y., Zhang, P., Li, Y., Hunold, K. M., Chiang, C., ... & Li, L. (2023). A comprehensive assessment of statin discontinuation among patients who concurrently initiate statins and CYP3A4‐inhibitor drugs; a multistate transition model. British Journal of Clinical Pharmacology, 89(7), 2076-2087.\nZhu, Y., Chiang, C. W., Wang, L., Brock, G., Milks, M. W., Cao, W., ... & Li, L. (2021). A multistate transition model for statin‐induced myopathy and statin discontinuation. CPT: Pharmacometrics & Systems Pharmacology, 10(10), 1236-1244."
   }
 ]
