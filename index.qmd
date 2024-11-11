@@ -1,0 +1,18 @@
+---
+about:
+  template: jolla
+
+  image: "img/main.jpeg"
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/yuxi-zhu-078540135/
+    # - icon: envelope
+    #   text: Email
+    #   href: mailto:yuxi_zhu@hotmail.com 
+---
+
+:::{}
+:::
+
+I earned my Ph.D. in Biostatistics from The Ohio State University in 2023. My research focuses on multistate transition models and causal inference, with a strong emphasis on healthcare applications. 

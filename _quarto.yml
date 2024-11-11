@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Yuxi Zhu"
+  navbar:
+    background: primary
+    right:
+      - href: index.qmd
+        text: Home
+      - href: Blog/index.qmd
+        text: Blog
+
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+    toc: true
+
+editor: visual
+

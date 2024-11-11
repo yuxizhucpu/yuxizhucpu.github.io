@@ -1,0 +1,39 @@
+---
+title: "KM plot based on R package `survminer`"
+author: "Yuxi Zhu"
+date: "2024-11-10"
+categories: [Code]
+---
+
+This blog offers a comprehensive guide on using the `ggsurvplot()` function from the `survminer` package, with a focus on utilizing various arguments to customize and enhance the survival plots."
+
+```{r , message=FALSE, warning=FALSE}
+library("survminer")
+require("survival")
+fit <- survfit(Surv(time, status) ~ sex, data = lung)
+```
+
+```{r}
+ggsurvplot(
+  fit,                     # survfit object
+  data = lung,  # data
+  palette = c("black", "black"), # color for each group
+  linetype =c(4,1), # linetype for each group
+  risk.table = TRUE,       # show risk table.
+  pval = TRUE,             # show p-value of log-rank test.
+  pval.coord= c(800, 0.85), # p value location
+  #conf.int = TRUE,         # show confidence intervals 
+  xlim = c(0,1000),        # limit for X axis
+  # survival estimates.
+  break.time.by =100 ,     # break X axis in time intervals by 500.
+  xlab="Time",
+  ylab="Survival probability",
+  legend.title = "",
+  legend.labs = c("Female", "Male"), #legend label
+  #ggtheme = theme_minimal(), # customize plot and risk table with a theme.
+  risk.table.y.text.col = T, # colour risk table text annotations.
+  risk.table.y.text = TRUE, # show bars instead of names in text annotations
+  risk.table.title= "Number"
+  # in legend of risk table
+)
+```
