@@ -12,6 +12,7 @@ website:
       - href: Blog/index.qmd
         text: Blog
 
+
 format:
   html:
     theme: sketchy
