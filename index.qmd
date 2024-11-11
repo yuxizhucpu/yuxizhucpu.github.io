@@ -7,9 +7,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/yuxi-zhu-078540135/
-    # - icon: envelope
-    #   text: Email
-    #   href: mailto:yuxi_zhu@hotmail.com 
+    - icon: envelope
+      text: Email
+      href: mailto:yuxi_zhu@hotmail.com
 ---
 
 :::{}
