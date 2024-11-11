@@ -1,3 +1,5 @@
+![](img/main.jpeg){fig-align="center" width="571"}
+
 <div>
 
 I earned my Ph.D. in Biostatistics from The Ohio State University in 2023. My research focuses on multistate transition models and causal inference, with a strong emphasis on healthcare applications.
