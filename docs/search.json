@@ -9,9 +9,9 @@
   {
     "objectID": "Blog/posts/post-with-code/index.html",
     "href": "Blog/posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "title": "Venn diagram based on size",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "This blog provides an example for using the euler() function from the eulerr package. An extra rectangle is added out of the euler diagram to show none of events from all sets happened.To make things easier, an R shiny website is created for people using it without any knowledge of R.\n\nfit &lt;- euler(c(\n        A = 10, #only A\n        B = 15, #only B\n        C = 20, #only c\n        \"A&B\" = 5, #only AB\n        \"A&C\" =6, #only AC\n        \"B&C\" = 7, #only BC\n        \"A&B&C\" = 4 #only ABC\n      ))\n      \n      # Plot Euler diagram using ggplot2\n      p &lt;- plot(fit, quantities = TRUE)\n      # Print the plot\n      print(p)\n      \n      # Add a rectangle to represent \"None of those happen\"\n      grid.rect(gp = gpar(lwd = 2, col = \"black\", fill = NA))\n      grid.text(\n        label = paste0(\"None:\", 3),  # None of happen\n        x = 0.9, y = 0.9, gp = gpar(col = \"black\", fontsize = 12, fontface = \"bold\")\n      )"
   },
   {
     "objectID": "Blog/posts/welcome/index.html",
@@ -25,7 +25,7 @@
     "href": "Blog/index.html",
     "title": "Yuxi Zhu",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2024\n\n\nYuxi Zhu\n\n\n\n\n\n\n  \n\n\n\n\nKM plot based on R package survminer\n\n\n\n\n\n\n\nCode\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2024\n\n\nYuxi Zhu\n\n\n\n\n\n\nNo matching items"
+    "text": "Venn diagram based on size\n\n\n\n\n\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 21, 2024\n\n\nYuxi Zhu\n\n\n\n\n\n\n  \n\n\n\n\nKM plot based on R package survminer\n\n\n\n\n\n\n\nCode\n\n\n\n\n\n\n\n\n\n\n\nNov 10, 2024\n\n\nYuxi Zhu\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "Publication.html",

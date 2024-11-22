@@ -1,8 +1,10 @@
 {
-  "hash": "4e93537b49da12503db0b63dddbc0c18",
+  "hash": "d1a10e41fd5e3d08388292fd2a7b7b5c",
   "result": {
-    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Yuxi Zhu\"\ndate: \"2024-11-10\"\ncategories: [code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Venn diagram based on size\"\nauthor: \"Yuxi Zhu\"\ndate: \"2024-11-21\"\ncategories: [code, analysis]\n---\n\n\nThis blog provides an example for using the `euler()` function from the `eulerr` package. An extra rectangle is added out of the euler diagram to show none of events from all sets happened.To make things easier, an R shiny website is created for people using it without any knowledge of `R`.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nfit <- euler(c(\n        A = 10, #only A\n        B = 15, #only B\n        C = 20, #only c\n        \"A&B\" = 5, #only AB\n        \"A&C\" =6, #only AC\n        \"B&C\" = 7, #only BC\n        \"A&B&C\" = 4 #only ABC\n      ))\n      \n      # Plot Euler diagram using ggplot2\n      p <- plot(fit, quantities = TRUE)\n      # Print the plot\n      print(p)\n      \n      # Add a rectangle to represent \"None of those happen\"\n      grid.rect(gp = gpar(lwd = 2, col = \"black\", fill = NA))\n      grid.text(\n        label = paste0(\"None:\", 3),  # None of happen\n        x = 0.9, y = 0.9, gp = gpar(col = \"black\", fontsize = 12, fontface = \"bold\")\n      )\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

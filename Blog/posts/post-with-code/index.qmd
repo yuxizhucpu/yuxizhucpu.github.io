@@ -1,13 +1,37 @@
 ---
-title: "Post With Code"
+title: "Venn diagram based on size"
 author: "Yuxi Zhu"
-date: "2024-11-10"
+date: "2024-11-21"
 categories: [code, analysis]
-image: "image.jpg"
 ---
 
-This is a post with executable code.
+This blog provides an example for using the `euler()` function from the `eulerr` package. An extra rectangle is added out of the euler diagram to show none of events from all sets happened.To make things easier, an R shiny website is created for people using it without any knowledge of `R`.
+
+```{r include=FALSE}
+library(eulerr)
+library(grid)
+```
 
 ```{r}
-1 + 1
+fit <- euler(c(
+        A = 10, #only A
+        B = 15, #only B
+        C = 20, #only c
+        "A&B" = 5, #only AB
+        "A&C" =6, #only AC
+        "B&C" = 7, #only BC
+        "A&B&C" = 4 #only ABC
+      ))
+      
+      # Plot Euler diagram using ggplot2
+      p <- plot(fit, quantities = TRUE)
+      # Print the plot
+      print(p)
+      
+      # Add a rectangle to represent "None of those happen"
+      grid.rect(gp = gpar(lwd = 2, col = "black", fill = NA))
+      grid.text(
+        label = paste0("None:", 3),  # None of happen
+        x = 0.9, y = 0.9, gp = gpar(col = "black", fontsize = 12, fontface = "bold")
+      )
 ```
