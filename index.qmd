@@ -20,10 +20,14 @@ University Hospitals Rainbow Babies & Children's Hospital, Cleveland, OH
 
 Biostatistician, Aug 2023 - Present
 
-# Publication
+# Publications
 
 1.  Zhu Y, Brock G, Li L. Uniformization and bounded Taylor series in Newton--Raphson method improves computational performance for a multistate transition model estimation and inference. Statistical Methods in Medical Research. 2024;0(0). doi:10.1177/09622802241283882
 
 2.  Donneyong, M. M., Zhu, Y., Zhang, P., Li, Y., Hunold, K. M., Chiang, C., \... & Li, L. (2023). A comprehensive assessment of statin discontinuation among patients who concurrently initiate statins and CYP3A4‐inhibitor drugs; a multistate transition model. *British Journal of Clinical Pharmacology*, *89*(7), 2076-2087.
 
 3.  Zhu, Y., Chiang, C. W., Wang, L., Brock, G., Milks, M. W., Cao, W., \... & Li, L. (2021). A multistate transition model for statin‐induced myopathy and statin discontinuation. *CPT: Pharmacometrics & Systems Pharmacology*, *10*(10), 1236-1244.
+
+# Contact Information
+
+Email:Yuxi_Zhu@hotmail.com

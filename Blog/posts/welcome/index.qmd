@@ -2,7 +2,7 @@
 title: "KM plot based on R package `survminer`"
 author: "Yuxi Zhu"
 date: "2024-11-10"
-categories: [Code]
+categories: [code]
 ---
 
 This blog offers a comprehensive guide on using the `ggsurvplot()` function from the `survminer` package, with a focus on utilizing various arguments to customize and enhance the survival plots."
