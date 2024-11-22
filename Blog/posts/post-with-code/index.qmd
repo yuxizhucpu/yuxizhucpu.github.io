@@ -5,7 +5,7 @@ date: "2024-11-21"
 categories: [code, analysis]
 ---
 
-This blog provides an example for using the `euler()` function from the `eulerr` package. An extra rectangle is added out of the euler diagram to show none of events from all sets happened.To make things easier, an R shiny website is created for people using it without any knowledge of `R`.
+This blog provides an example for using the `euler()` function from the `eulerr` package. An extra rectangle is added out of the euler diagram to show none of events from all sets happened.To make things easier, an R shiny website is created for people using it without any knowledge of `R` [`https://yuxizhu.shinyapps.io/Venn_eulerr/`](https://yuxizhu.shinyapps.io/Venn_eulerr/).
 
 ```{r include=FALSE}
 library(eulerr)
