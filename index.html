@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yuxi Zhu | Personal Website</title>
+  <meta name="description" content="Your one-line tagline (role • focus • location)" />
+
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="assets/avatar.png" />
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">Your Name</a>
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Biostatistics • Health Services Research</p>
+          <h1>Hi, I’m <span class="grad">Yuxi Zhu</span>.</h1>
+          <p class="lead">
+            One-liner: e.g., “Biostatistician focused on causal inference, longitudinal/clustered data,
+            and multi-state transition models for pediatric and health services research.”
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact</a>
+            <a class="btn ghost" href="https://github.com/yuxizhucpu" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn ghost" href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
+            <a class="btn ghost" href="#" target="_blank" rel="noreferrer">CV (PDF)</a>
+          </div>
+
+          <div class="meta">
+            <span>📍 Cleveland, Ohio</span>
+            <span>🏥 Biostatistician / UH Rainbow Babies & Children’s Hospital</span>
+          </div>
+        </div>
+
+        <div class="card profile">
+          <div class="avatar-wrap">
+            <img class="avatar" src="assets/avatar.png" alt="Avatar"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';" />
+            <div class="avatar-fallback" style="display:none;">Add avatar.png</div>
+          </div>
+
+          <div class="profile-text">
+            <h3>Quick Info</h3>
+            <ul>
+              <li>Methods: Causal inference, GEE, mixed-effects, multi-state models</li>
+              <li>Domains: Pediatrics, EHR, health services</li>
+              <li>Tools: R, Python,Shiny</li>
+            </ul>
+
+            <div class="mini">
+              <a href="mailto:youremail@example.com" class="mini-link">✉️ yuxi_zhu@hotmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container stats">
+        <div class="stat"><div class="num">6+</div><div class="label">Years Experience</div></div>
+        <div class="stat"><div class="num">X</div><div class="label">Publications</div></div>
+        <div class="stat"><div class="num">X</div><div class="label">Grants/Projects</div></div>
+        <div class="stat"><div class="num">R / Py</div><div class="label">Primary Stack</div></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Write 5–8 sentences about what you do, what problems you like solving, and how you collaborate.
+          Keep it concrete: populations, data types, and methods.
+        </p>
+
+        <div class="grid2">
+          <div class="card pad">
+            <h3>What I Do</h3>
+            <ul class="ticks">
+              <li>Study design and statistical analysis plans (SAP)</li>
+              <li>Causal inference (PS weighting, DR estimators)</li>
+              <li>Longitudinal/clustered data (GEE, mixed models)</li>
+              <li>Reproducible pipelines and reporting</li>
+            </ul>
+          </div>
+
+          <div class="card pad">
+            <h3>Current Interests</h3>
+            <ul class="bullets">
+              <li>Dynamic treatment strategies and multi-state models</li>
+              <li>Health economics and utilization outcomes</li>
+              <li>Simulation-based power and study planning tools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Pick 3–6 highlights. Describe: problem → approach → impact.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card project">
+            <div class="top">
+              <h3>ITS Power Simulation App</h3>
+              <span class="tag">R / Shiny</span>
+            </div>
+            <p>Simulation-based power analysis for interrupted time series designs (binary and continuous outcomes).</p>
+            <div class="links">
+              <a href="https://github.com/YOUR_GITHUB/YOUR_REPO" target="_blank" rel="noreferrer">Code</a>
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="top">
+              <h3>Multi-state Model for Treatment Dynamics</h3>
+              <span class="tag">Methods</span>
+            </div>
+            <p>Modeling transitions across clinical states to support dynamic treatment assignment and inference.</p>
+            <div class="links">
+              <a href="#" target="_blank" rel="noreferrer">Preprint</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="top">
+              <h3>EHR Cohort + Causal Pipeline</h3>
+              <span class="tag">EHR</span>
+            </div>
+            <p>End-to-end workflow: cohort definition, missingness handling, weighting, robustness checks, reporting.</p>
+            <div class="links">
+              <a href="#" target="_blank" rel="noreferrer">Overview</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Publications</h2>
+          <p class="muted">You can include “Under review” or “In preparation”.</p>
+        </div>
+
+        <div class="card pad">
+          <ol class="pubs">
+            <li>
+              <span class="pub-title">Paper title goes here</span>
+              <span class="pub-meta">Journal, Year • Authors</span>
+              <span class="pub-links">
+                <a href="#" target="_blank" rel="noreferrer">PDF</a>
+                <a href="#" target="_blank" rel="noreferrer">DOI</a>
+              </span>
+            </li>
+            <li>
+              <span class="pub-title">Paper title goes here</span>
+              <span class="pub-meta">Journal/Conference, Year • Authors</span>
+              <span class="pub-links">
+                <a href="#" target="_blank" rel="noreferrer">Link</a>
+              </span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="grid2">
+          <div class="card pad">
+            <p class="muted">Fastest way to reach me:</p>
+            <p class="big"><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p class="muted">I’m also on GitHub and LinkedIn.</p>
+          </div>
+
+          <div class="card pad">
+            <h3>Links</h3>
+            <div class="linkgrid">
+              <a class="pill" href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="pill" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="pill" href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a>
+              <a class="pill" href="#" target="_blank" rel="noreferrer">CV (PDF)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> Your Name</span>
+        <span class="muted">Built with GitHub Pages</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
